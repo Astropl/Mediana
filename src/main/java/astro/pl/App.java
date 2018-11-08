@@ -6,7 +6,7 @@ public class App {
     static double aver1, aver2, mediana;
 
     public static void main(String[] args) {
-        double mediana = mediana(new double[]{1.0, 4.0, 16.0, 2.0, 23.0, 3.0, 27.0, 87.0, 4.0, 9.0, 77.0, 8.0});
+        mediana = mediana(new double[]{1.0, 4.0, 16.0, 2.0, 23.0, 3.0, 27.0, 87.0, 4.0, 9.0, 77.0, 8.0});
         System.out.println("Mediana to :" + mediana);
     }
 
